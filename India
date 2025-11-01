@@ -1,0 +1,7 @@
+import java.io.File;
+public class AttachSample {
+    public static void main(String[] args) {
+        File attachment = new File("report.pdf");
+        System.out.println("Attached file: " + attachment.getName());
+    }
+}
